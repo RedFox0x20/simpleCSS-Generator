@@ -4,6 +4,7 @@ A simple script that implements some basic macros and configuration for generati
 ## Configuration
 
 **Sizes.cfg**
+
 `Sizes.cfg` is a comma seperated configuration file
 * Column 1: Generator set
 * Column 2: Rule name
@@ -36,7 +37,7 @@ A,large,200px
 ```
 
 **simple.css**
-```
+```css
 /* Generated CSS */
 
 @media only screen and (max-width:600px) {
