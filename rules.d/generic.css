@@ -1,0 +1,53 @@
+.__SIZE__image-round {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Layouts */
+
+.__SIZE__inline-block {
+    display: inline-block;
+}
+
+.__SIZE__inline-flex {
+    display: inline-flex;
+}
+
+.__SIZE__container-flex {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+
+.__SIZE__flex-justify-center {
+    justify-content: center;
+}
+
+.__SIZE__flex-justifty-left {
+    justify-content: left;
+}
+
+.__SIZE__flex-justify-right {
+    justify-content: right;
+}
+
+.__SIZE__flex-align-center {
+    align-items: center;
+}
+
+.__SIZE__flex-align-start {
+    align-items: flex-start;
+}
+
+.__SIZE__align-center {
+    text-align: center;
+}
+
+.__SIZE__align-left {
+    text-align: left;
+}
+
+.__SIZE__align-right {
+    text-align: right;
+}

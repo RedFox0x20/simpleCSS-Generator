@@ -1,0 +1,115 @@
+:root {
+    --v-colour-primary: rgb(222, 135, 232);
+    --v-colour-secondary: rgb(131, 215, 213);
+    --v-colour-tertiary: rgb(225, 143, 143);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: monospace, sans-serif;
+    color: white;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+    /* min-height: 100vh; */
+}
+
+/* Headers */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    line-height: 2;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+h1,
+.h1 {
+    font-size: 2em;
+    color: var(--v-colour-primary);
+}
+
+h2,
+.h2 {
+    color: var(--v-colour-secondary);
+}
+
+/* Text elements */
+p {
+    margin: 0px 1rem 1rem 1rem;
+    line-height: 1.25;
+}
+
+a {
+    cursor: grab;
+}
+
+/* Images */
+
+img {
+    margin: 10px;
+    border: solid white 2px;
+    border-radius: 25px;
+}
+
+figure {
+    width: min-content;
+    margin: 10px;
+    border: solid white 2px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+figcaption {
+    margin: 10px;
+}
+
+figure>img {
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 0px;
+}
+
+/* Custom UI Element classes */
+
+.link {
+    color: var(--v-colour-tertiary);
+}
+
+
+.button-wrapper {
+    margin: 5px;
+}
+
+.button {
+    /* border: solid white 2px; */
+    border-radius: 1em;
+    border: solid var(--v-colour-tertiary) 2px;
+    line-height: 2;
+    cursor: grab;
+    margin: 1rem;
+}
+
+.button:hover {
+    background-color: rgba(225, 216, 216, 0.__SIZE__312);
+}
+
+.button-text {
+    margin-left: 1em;
+    margin-right: 1em;
+}

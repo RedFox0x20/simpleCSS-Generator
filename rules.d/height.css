@@ -1,0 +1,11 @@
+.__SIZE__height-__NAME__ {
+    height: __VALUE__;
+}
+
+.__SIZE__min-height-__NAME__ {
+    min-height: __VALUE__;
+}
+
+.__SIZE__max-height-__NAME__ {
+    max-height: __VALUE__;
+}

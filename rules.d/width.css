@@ -1,0 +1,11 @@
+.__SIZE__width-__NAME__ {
+    width: __VALUE__;
+}
+
+.__SIZE__min-width-__NAME__ {
+    min-width: __VALUE__;
+}
+
+.__SIZE__max-width-__NAME__ {
+    max-width: __VALUE__;
+}
