@@ -32,7 +32,7 @@ A,large,200px
 
 ```css
 .__SIZE__width-__NAME__ {
-	width: __VALUE__
+	width: __VALUE__;
 }
 ```
 
