@@ -90,26 +90,3 @@ figure>img {
 .link {
     color: var(--v-colour-tertiary);
 }
-
-
-.button-wrapper {
-    margin: 5px;
-}
-
-.button {
-    /* border: solid white 2px; */
-    border-radius: 1em;
-    border: solid var(--v-colour-tertiary) 2px;
-    line-height: 2;
-    cursor: grab;
-    margin: 1rem;
-}
-
-.button:hover {
-    background-color: rgba(225, 216, 216, 0.__SIZE__312);
-}
-
-.button-text {
-    margin-left: 1em;
-    margin-right: 1em;
-}
